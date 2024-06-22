@@ -1,6 +1,6 @@
 {
 	"tagOwners": {
-		"tag:server": ["ssprof0@gmail.com"],
+		"tag:server": ["mymail@gmail.com"],
 	},
 	"acls": [
 		// Allow all connections.
