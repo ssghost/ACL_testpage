@@ -1,5 +1,13 @@
 // Example/default ACLs for unrestricted connections.
-{
+{	
+	 "groups": {
+	  	"group:ssghost": ["ssprof0@gmail.com"],
+	},
+
+	"tagOwners": {
+	  	"tag:ssghost": ["group:ssghost"],
+	 },
+	
 	"acls": [
 		{"action": "accept", "src": ["*"], "dst": ["*:*"]},
 	],
